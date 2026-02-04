@@ -1,0 +1,11 @@
+{
+  "gatling blaster|arm": { "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"] },
+  "laser blaster|arm": { "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"] },
+  "volcano cannon|arm": { "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"] },
+  "plasma annihilator|arm": { "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"] },
+  "apocalypse missile launcher|carapace": { "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"] },
+  "plasma blastgun|arm": { "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"] },
+  "vulcan mega-bolter|arm": { "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"] },
+  "turbo laser destructor|arm": { "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"] },
+  "inferno gun|arm": { "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"] }
+}

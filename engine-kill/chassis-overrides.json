@@ -1,0 +1,32 @@
+{
+  "warhound": {
+    "plasmaReactorMax": 5,
+    "voidShieldsMax": 4,
+    "voidShieldSaves": ["3+", "4+", "4+", "X"]
+  },
+  "reaver": {
+    "plasmaReactorMax": 6,
+    "voidShieldsMax": 5,
+    "voidShieldSaves": ["3+", "3+", "4+", "4+", "X"]
+  },
+  "warlord": {
+    "plasmaReactorMax": 7,
+    "voidShieldsMax": 6,
+    "voidShieldSaves": ["3+", "3+", "3+", "4+", "4+", "X"]
+  },
+  "warmaster": {
+    "plasmaReactorMax": 8,
+    "voidShieldsMax": 7,
+    "voidShieldSaves": ["3+", "3+", "3+", "3+", "4+", "4+", "X"]
+  },
+  "warbringer": {
+    "plasmaReactorMax": 7,
+    "voidShieldsMax": 6,
+    "voidShieldSaves": ["3+", "3+", "4+", "4+", "4+", "X"]
+  },
+  "dire-wolf": {
+    "plasmaReactorMax": 6,
+    "voidShieldsMax": 4,
+    "voidShieldSaves": ["3+", "4+", "4+", "X"]
+  }
+}

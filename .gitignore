@@ -18,3 +18,8 @@
 
 # Don't ignore .yml for CI build definitions
 !*.yml
+
+# Engine-Kill app overrides (JSON)
+!/engine-kill/
+!/engine-kill/*.json
+!/engine-kill/*.md
