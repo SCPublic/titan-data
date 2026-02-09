@@ -1,27 +1,32 @@
 {
   "reaver": {
-    "head": { "max": 5, "armor": { "directHit": 3, "devastatingHit": 4, "crit": 5 }, "armorRolls": { "direct": "11-13", "devastating": "14-16", "critical": "17+" } },
-    "body": { "max": 6, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "armorRolls": { "direct": "10-12", "devastating": "13-14", "critical": "15+" } },
-    "legs": { "max": 6, "armor": { "directHit": 3, "devastatingHit": 4, "crit": 5 }, "armorRolls": { "direct": "11-12", "devastating": "13-14", "critical": "15+" } }
+    "head": { "max": 6, "armorRolls": { "direct": "11-13", "devastating": "14-16", "critical": "17+" } },
+    "body": { "max": 7, "armorRolls": { "direct": "10-12", "devastating": "13-14", "critical": "15+" } },
+    "legs": { "max": 7, "armorRolls": { "direct": "11-12", "devastating": "13-14", "critical": "15+" } }
   },
   "warlord": {
-    "head": { "max": 5, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "armorRolls": { "direct": "13-14", "devastating": "15-16", "critical": "17+" } },
-    "body": { "max": 6, "armor": { "directHit": 5, "devastatingHit": 6, "crit": 7 }, "armorRolls": { "direct": "12-13", "devastating": "14-15", "critical": "16+" } },
-    "legs": { "max": 6, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "armorRolls": { "direct": "13-14", "devastating": "15-16", "critical": "17+" } }
+    "head": { "max": 7, "armorRolls": { "direct": "13-14", "devastating": "15-16", "critical": "17+" } },
+    "body": { "max": 8, "armorRolls": { "direct": "12-13", "devastating": "14-15", "critical": "16+" } },
+    "legs": { "max": 8, "armorRolls": { "direct": "13-14", "devastating": "15-16", "critical": "17+" } }
   },
   "warmaster": {
-    "head": { "max": 8, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "armorRolls": { "direct": "13-15", "devastating": "16", "critical": "17+" }, "criticalEffects": [{ "level": 1, "effects": ["MIU Feedback"] }, { "level": 2, "effects": ["MIU Feedback"] }, { "level": 3, "effects": ["MIU Feedback", "Moderati Wounded"] }, { "level": 4, "effects": ["Moderati Wounded", "Princeps Wounded"] }] },
-    "body": { "max": 9, "armor": { "directHit": 5, "devastatingHit": 6, "crit": 7 }, "armorRolls": { "direct": "13", "devastating": "14-15", "critical": "16+" } },
-    "legs": { "max": 9, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "armorRolls": { "direct": "13-15", "devastating": "16", "critical": "17+" } }
+    "head": { "max": 8, "armorRolls": { "direct": "13-15", "devastating": "16", "critical": "17+" }, "criticalEffects": [{ "level": 1, "effects": ["MIU Feedback"] }, { "level": 2, "effects": ["MIU Feedback"] }, { "level": 3, "effects": ["MIU Feedback", "Moderati Wounded"] }, { "level": 4, "effects": ["Moderati Wounded", "Princeps Wounded"] }] },
+    "body": { "max": 9, "armorRolls": { "direct": "13", "devastating": "14-15", "critical": "16+" } },
+    "legs": { "max": 9, "armorRolls": { "direct": "13-15", "devastating": "16", "critical": "17+" } }
   },
   "warhound": {
-    "head": { "max": 5, "armor": { "directHit": 2, "devastatingHit": 3, "crit": 4 }, "armorRolls": { "direct": "11-13", "devastating": "14-15", "critical": "16+" }, "modifiers": [null, null, 1, 2, 3] },
-    "body": { "max": 6, "armor": { "directHit": 3, "devastatingHit": 4, "crit": 5 }, "armorRolls": { "direct": "10-11", "devastating": "12-13", "critical": "14+" }, "modifiers": [null, null, 1, 1, 2, 3] },
-    "legs": { "max": 6, "armor": { "directHit": 2, "devastatingHit": 3, "crit": 4 }, "armorRolls": { "direct": "10-12", "devastating": "13-14", "critical": "15+" }, "modifiers": [null, null, 1, 1, 2, 3] }
+    "head": { "max": 5, "armorRolls": { "direct": "11-13", "devastating": "14-15", "critical": "16+" }, "modifiers": [null, null, 1, 2, 3] },
+    "body": { "max": 6, "armorRolls": { "direct": "10-11", "devastating": "12-13", "critical": "14+" }, "modifiers": [null, null, 1, 1, 2, 3] },
+    "legs": { "max": 6, "armorRolls": { "direct": "10-12", "devastating": "13-14", "critical": "15+" }, "modifiers": [null, null, 1, 1, 2, 3] }
   },
   "dire-wolf": {
-    "head": { "max": 5, "armor": { "directHit": 2, "devastatingHit": 3, "crit": 4 }, "armorRolls": { "direct": "11-13", "devastating": "14-15", "critical": "16+" } },
-    "body": { "max": 6, "armor": { "directHit": 3, "devastatingHit": 4, "crit": 5 }, "armorRolls": { "direct": "10-12", "devastating": "13-14", "critical": "15+" } },
-    "legs": { "max": 6, "armor": { "directHit": 2, "devastatingHit": 3, "crit": 4 }, "armorRolls": { "direct": "11-12", "devastating": "13-14", "critical": "15+" } }
+    "head": { "max": 5, "armorRolls": { "direct": "11-13", "devastating": "14-15", "critical": "16+" } },
+    "body": { "max": 6, "armorRolls": { "direct": "10-12", "devastating": "13-14", "critical": "15+" } },
+    "legs": { "max": 6, "armorRolls": { "direct": "11-12", "devastating": "13-14", "critical": "15+" } }
+  },
+  "nemesis": {
+    "head": { "max": 7, "armorRolls": { "direct": "12-14", "devastating": "15-16", "critical": "17+" } },
+    "body": { "max": 7, "armorRolls": { "direct": "11-12", "devastating": "13-15", "critical": "16+" } },
+    "legs": { "max": 8, "armorRolls": { "direct": "11-13", "devastating": "14-15", "critical": "16+" } }
   }
 }
