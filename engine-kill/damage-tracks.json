@@ -1,22 +1,27 @@
 {
   "reaver": {
-    "head": { "max": 5, "armor": { "directHit": 3, "devastatingHit": 4, "crit": 5 }, "hitTable": { "directHit": "11-13", "devastatingHit": "14-15", "criticalHit": "16+" }, "criticalEffects": [{ "level": 1, "effects": ["MIU Feedback"] }, { "level": 2, "effects": ["MIU Feedback", "Moderati Wounded"] }, { "level": 3, "effects": ["Moderati Wounded", "Princeps Wounded"] }] },
-    "body": { "max": 6, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "hitTable": { "directHit": "10-11", "devastatingHit": "12-13", "criticalHit": "14+" }, "criticalEffects": [{ "level": 1, "effects": ["Reactor Leak (1)"] }, { "level": 2, "effects": ["Reactor Leak (1)", "VSG Burnout"] }, { "level": 3, "effects": ["Reactor Leak (2)", "VSG Burnout"] }] },
-    "legs": { "max": 6, "armor": { "directHit": 3, "devastatingHit": 4, "crit": 5 }, "hitTable": { "directHit": "10-12", "devastatingHit": "13-14", "criticalHit": "15+" }, "criticalEffects": [{ "level": 1, "effects": ["Stabilisers Damaged"] }, { "level": 2, "effects": ["Stabilisers Damaged", "Locomotors Seized"] }, { "level": 3, "effects": ["Immobilised"] }] }
+    "head": { "max": 5, "armor": { "directHit": 3, "devastatingHit": 4, "crit": 5 }, "armorRolls": { "direct": "11-13", "devastating": "14-16", "critical": "17+" } },
+    "body": { "max": 6, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "armorRolls": { "direct": "10-12", "devastating": "13-14", "critical": "15+" } },
+    "legs": { "max": 6, "armor": { "directHit": 3, "devastatingHit": 4, "crit": 5 }, "armorRolls": { "direct": "11-12", "devastating": "13-14", "critical": "15+" } }
   },
   "warlord": {
-    "head": { "max": 5, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "hitTable": { "directHit": "11-13", "devastatingHit": "14-15", "criticalHit": "16+" }, "criticalEffects": [{ "level": 1, "effects": ["MIU Feedback"] }, { "level": 2, "effects": ["MIU Feedback", "Moderati Wounded"] }, { "level": 3, "effects": ["Moderati Wounded", "Princeps Wounded"] }] },
-    "body": { "max": 6, "armor": { "directHit": 5, "devastatingHit": 6, "crit": 7 }, "hitTable": { "directHit": "10-11", "devastatingHit": "12-13", "criticalHit": "14+" }, "criticalEffects": [{ "level": 1, "effects": ["Reactor Leak (1)"] }, { "level": 2, "effects": ["Reactor Leak (1)", "VSG Burnout"] }, { "level": 3, "effects": ["Reactor Leak (2)", "VSG Burnout"] }] },
-    "legs": { "max": 6, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "hitTable": { "directHit": "10-12", "devastatingHit": "13-14", "criticalHit": "15+" }, "criticalEffects": [{ "level": 1, "effects": ["Stabilisers Damaged"] }, { "level": 2, "effects": ["Stabilisers Damaged", "Locomotors Seized"] }, { "level": 3, "effects": ["Immobilised"] }] }
+    "head": { "max": 5, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "armorRolls": { "direct": "13-14", "devastating": "15-16", "critical": "17+" } },
+    "body": { "max": 6, "armor": { "directHit": 5, "devastatingHit": 6, "crit": 7 }, "armorRolls": { "direct": "12-13", "devastating": "14-15", "critical": "16+" } },
+    "legs": { "max": 6, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "armorRolls": { "direct": "13-14", "devastating": "15-16", "critical": "17+" } }
   },
   "warmaster": {
-    "head": { "max": 8, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "hitTable": { "directHit": "11-13", "devastatingHit": "14-15", "criticalHit": "16+" }, "criticalEffects": [{ "level": 1, "effects": ["MIU Feedback"] }, { "level": 2, "effects": ["MIU Feedback", "Moderati Wounded"] }, { "level": 3, "effects": ["Moderati Wounded", "Princeps Wounded"] }] },
-    "body": { "max": 9, "armor": { "directHit": 5, "devastatingHit": 6, "crit": 7 }, "hitTable": { "directHit": "10-11", "devastatingHit": "12-13", "criticalHit": "14+" }, "criticalEffects": [{ "level": 1, "effects": ["Reactor Leak (1)"] }, { "level": 2, "effects": ["Reactor Leak (1)", "VSG Burnout"] }, { "level": 3, "effects": ["Reactor Leak (2)", "VSG Burnout"] }] },
-    "legs": { "max": 9, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "hitTable": { "directHit": "10-12", "devastatingHit": "13-14", "criticalHit": "15+" }, "criticalEffects": [{ "level": 1, "effects": ["Stabilisers Damaged"] }, { "level": 2, "effects": ["Stabilisers Damaged", "Locomotors Seized"] }, { "level": 3, "effects": ["Immobilised"] }] }
+    "head": { "max": 8, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "armorRolls": { "direct": "13-15", "devastating": "16", "critical": "17+" }, "criticalEffects": [{ "level": 1, "effects": ["MIU Feedback"] }, { "level": 2, "effects": ["MIU Feedback"] }, { "level": 3, "effects": ["MIU Feedback", "Moderati Wounded"] }, { "level": 4, "effects": ["Moderati Wounded", "Princeps Wounded"] }] },
+    "body": { "max": 9, "armor": { "directHit": 5, "devastatingHit": 6, "crit": 7 }, "armorRolls": { "direct": "13", "devastating": "14-15", "critical": "16+" } },
+    "legs": { "max": 9, "armor": { "directHit": 4, "devastatingHit": 5, "crit": 6 }, "armorRolls": { "direct": "13-15", "devastating": "16", "critical": "17+" } }
   },
   "warhound": {
-    "head": { "max": 5, "armor": { "directHit": 2, "devastatingHit": 3, "crit": 4 }, "hitTable": { "directHit": "11-13", "devastatingHit": "14-15", "criticalHit": "16+" }, "modifiers": [null, null, 1, 2, 3], "criticalEffects": [{ "level": 1, "effects": ["MIU Feedback"] }, { "level": 2, "effects": ["MIU Feedback", "Moderati Wounded"] }, { "level": 3, "effects": ["Moderati Wounded", "Princeps Wounded"] }] },
-    "body": { "max": 6, "armor": { "directHit": 3, "devastatingHit": 4, "crit": 5 }, "hitTable": { "directHit": "10-11", "devastatingHit": "12-13", "criticalHit": "14+" }, "modifiers": [null, null, 1, 1, 2, 3], "criticalEffects": [{ "level": 1, "effects": ["Reactor Leak (1)"] }, { "level": 2, "effects": ["Reactor Leak (1)", "VSG Burnout"] }, { "level": 3, "effects": ["Reactor Leak (2)", "VSG Burnout"] }] },
-    "legs": { "max": 6, "armor": { "directHit": 2, "devastatingHit": 3, "crit": 4 }, "hitTable": { "directHit": "10-12", "devastatingHit": "13-14", "criticalHit": "15+" }, "modifiers": [null, null, 1, 1, 2, 3], "criticalEffects": [{ "level": 1, "effects": ["Stabilisers Damaged"] }, { "level": 2, "effects": ["Stabilisers Damaged", "Locomotors Seized"] }, { "level": 3, "effects": ["Immobilised"] }] }
+    "head": { "max": 5, "armor": { "directHit": 2, "devastatingHit": 3, "crit": 4 }, "armorRolls": { "direct": "11-13", "devastating": "14-15", "critical": "16+" }, "modifiers": [null, null, 1, 2, 3] },
+    "body": { "max": 6, "armor": { "directHit": 3, "devastatingHit": 4, "crit": 5 }, "armorRolls": { "direct": "10-11", "devastating": "12-13", "critical": "14+" }, "modifiers": [null, null, 1, 1, 2, 3] },
+    "legs": { "max": 6, "armor": { "directHit": 2, "devastatingHit": 3, "crit": 4 }, "armorRolls": { "direct": "10-12", "devastating": "13-14", "critical": "15+" }, "modifiers": [null, null, 1, 1, 2, 3] }
+  },
+  "dire-wolf": {
+    "head": { "max": 5, "armor": { "directHit": 2, "devastatingHit": 3, "crit": 4 }, "armorRolls": { "direct": "11-13", "devastating": "14-15", "critical": "16+" } },
+    "body": { "max": 6, "armor": { "directHit": 3, "devastatingHit": 4, "crit": 5 }, "armorRolls": { "direct": "10-12", "devastating": "13-14", "critical": "15+" } },
+    "legs": { "max": 6, "armor": { "directHit": 2, "devastatingHit": 3, "crit": 4 }, "armorRolls": { "direct": "11-12", "devastating": "13-14", "critical": "15+" } }
   }
 }

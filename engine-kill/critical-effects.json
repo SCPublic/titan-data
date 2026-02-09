@@ -1,0 +1,17 @@
+{
+  "head": [
+    { "level": 1, "effects": ["MIU Feedback"] },
+    { "level": 2, "effects": ["MIU Feedback", "Moderati Wounded"] },
+    { "level": 3, "effects": ["Moderati Wounded", "Princeps Wounded"] }
+  ],
+  "body": [
+    { "level": 1, "effects": ["Reactor Leak (1)"] },
+    { "level": 2, "effects": ["Reactor Leak (1)", "VSG Burnout"] },
+    { "level": 3, "effects": ["Reactor Leak (2)", "VSG Burnout"] }
+  ],
+  "legs": [
+    { "level": 1, "effects": ["Stabilisers Damaged"] },
+    { "level": 2, "effects": ["Stabilisers Damaged", "Locomotors Seized"] },
+    { "level": 3, "effects": ["Immobilised"] }
+  ]
+}
