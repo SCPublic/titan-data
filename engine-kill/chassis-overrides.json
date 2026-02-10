@@ -2,7 +2,10 @@
   "warhound": {
     "plasmaReactorMax": 5,
     "voidShieldsMax": 4,
-    "voidShieldSaves": ["3+", "4+", "4+", "X"]
+    "voidShieldSaves": ["3+", "4+", "4+", "X"],
+    "specialRules": [
+      "SQUADRON: Warhound Titans can be formed into Squadrons of 2-3 Titans."
+    ]
   },
   "reaver": {
     "plasmaReactorMax": 6,
