@@ -1,38 +1,499 @@
 {
   "gatling blaster|arm": {
-    "repairRoll": "4+",
-    "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"]
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
   },
   "laser blaster|arm": {
     "repairRoll": "4+",
-    "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"]
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
   },
   "volcano cannon|arm": {
-    "repairRoll": "4+",
-    "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"]
+    "repairRoll": "5+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
   },
   "plasma annihilator|arm": {
     "repairRoll": "4+",
-    "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"]
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
   },
   "apocalypse missile launcher|carapace": {
     "repairRoll": "4+",
-    "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"]
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
   },
   "plasma blastgun|arm": {
-    "repairRoll": "4+",
-    "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"]
+    "repairRoll": "5+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
   },
   "vulcan mega-bolter|arm": {
-    "repairRoll": "4+",
-    "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"]
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
   },
   "turbo laser destructor|arm": {
     "repairRoll": "4+",
-    "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"]
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
   },
   "inferno gun|arm": {
+    "repairRoll": "2+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "desolator chainsword|arm": {
+    "repairRoll": "2+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "krius siege drill|arm": {
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "krius grav imploder|arm": {
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "neutron laser|carapace": {
     "repairRoll": "4+",
-    "disabledRollLines": ["9-12: Detonation {Body, S7}", "13+: Detonation {Body, S9}"]
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "volcano cannon|carapace": {
+    "repairRoll": "5+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "conversion beam dissipator|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "volcano cannon with toxin nodes|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "ardex defensor mega-bolter|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "melta cannon|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "reaver titan chainfist|arm": {
+    "repairRoll": "2+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "reaver titan power fist|arm": {
+    "repairRoll": "2+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "chasmata laser blaster|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "volcano cannon with toxin nodes|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "melta cannon with toxin nodes|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "turbo laser destructor|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "warp missile support rack|carapace": {
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "vulcan megabolter|carapace": {
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "volkite eradicator|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "graviton destructor|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "conversion beam dissolutor|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "turbo laser battery|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "fissure bombards|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "plasma eclipse battery|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "magma lance|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "radial missile array|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "aftershock warheads|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "void cascade warheads|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "leviathan laser annhilator|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "warp storm warheads|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "the silence singularity warheads|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "apocalypse missile array|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "eruption lance|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "ardex defensor cannon|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "plasma blast gun|arm": {
+    "repairRoll": "5+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "vulcan megabolter|arm": {
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "plasma blastgun with toxin nodes|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "ursus claw|arm": {
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "natrix shock lance|arm": {
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "volkite eradicator|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "graviton destructor|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "conversion beam dissolutor|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "incisor pattern melta lance|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "swarmer missiles|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "shudder missiles|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "bellicosa volcano cannon|arm": {
+    "repairRoll": "5+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "mori quake cannon|arm": {
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "sunfury plasma annihilator|arm": {
+    "repairRoll": "5+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "macro gatling blaster|arm": {
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "arioch titan power claw|arm": {
+    "repairRoll": "2+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "volkite destructor|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "graviton ruinator|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "conversion beam extirpator|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "apocalypse missile launchers|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "paired gatling blasters|carapace": {
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "paired laser blaster|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "paired turbo laser destructor|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "vulcan megabolter array|carapace": {
+    "repairRoll": "3+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "paired chasmata laser blaster|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "cruciator gatling array|carapace": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "titan legion|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "corrupt titan|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
+  },
+  "sinistramanus tenebrae|arm": {
+    "repairRoll": "4+",
+    "disabledRollLines": [
+      "9-12: Detonation {Body, S7}",
+      "13+: Detonation {Body, S9}"
+    ]
   }
 }
