@@ -15,7 +15,10 @@
   "warlord": {
     "plasmaReactorMax": 7,
     "voidShieldsMax": 6,
-    "voidShieldSaves": ["3+", "3+", "3+", "4+", "4+", "X"]
+    "voidShieldSaves": ["3+", "3+", "3+", "4+", "4+", "X"],
+    "specialRules": [
+      "ARDEX DEFENSOR CANNON: When the Titan is activated in the Combat phase, each enemy unit that is within its Front or Rear arc, and within 6\", suffers D3 Strength 5 hits."
+    ]
   },
   "warmaster": {
     "plasmaReactorMax": 8,
