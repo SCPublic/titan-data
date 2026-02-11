@@ -30,6 +30,11 @@
   "dire-wolf": {
     "plasmaReactorMax": 6,
     "voidShieldsMax": 4,
-    "voidShieldSaves": ["3+", "4+", "4+", "X"]
+    "voidShieldSaves": ["3+", "4+", "4+", "X"],
+    "specialRules": [
+      "STALKER: This Titan is deployed after all other units. Players take it in turns, starting with the player who has control of the battlefield, to deploy one Titan with the Stalker rule anywhere on the battlefield. The Titan must be at least 8\", and at least 50% obscured, from enemy units – these conditions do not apply if it is deployed in the controlling player's deployment zone. This Titan counts as deployed for the purposes of determining which player finished deploying first.",
+      "AUXILIARY TITAN: This Titan is an Auxiliary Titan. A battlegroup can include a maximum of 1 Auxiliary Titan as Reinforcements per maniple or Knight Lance in the battlegroup.",
+      "HEAVY SCOUT TITAN: Each maniple in a battlegroup may replace a single optional Warhound Titan with a Dire Wolf Titan. Legio Audax maniples may replace a single mandatory Reaver or a single optional Warhound Titan with a Dire Wolf Titan instead; this allows the fielding of Legio Audax maniples that were previously inaccessible to the Legio, such as Ferrox or Venator maniples, so long as the maniple includes no Titan of Scale 7 or more when assembled. Dire Wolf Titans count as the Warhound or Reaver they replace for the purposes of maniple rules."
+    ]
   }
 }
