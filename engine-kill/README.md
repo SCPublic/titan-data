@@ -2,6 +2,21 @@
 
 JSON files in this folder customize how titans work in the Engine Kill app. The app fetches them from the titan-data repo and uses them instead of hardcoded values when available.
 
+## Generated app-ready payload (templates.json)
+
+The **Engine Kill app** can load a single file instead of merging XML and overrides at runtime:
+
+- **File:** `engine-kill/generated/templates.json` (see [generated/README.md](generated/README.md) for the payload shape).
+- **How it’s produced:** A generator script in the engine-kill repo runs the same merge logic (BattleScribe XML + these override JSONs) and writes `generated/templates.json`. Run it whenever XML or override files change.
+- **From engine-kill repo:**  
+  `TITAN_DATA_OUTPUT=/path/to/titan-data/engine-kill/generated/templates.json npm run generate-templates`  
+  Or, with titan-data as a sibling:  
+  `TITAN_DATA_OUTPUT="../titan-data/engine-kill/generated/templates.json" npm run generate-templates`
+- **From this repo (titan-data):**  
+  From `engine-kill/scripts/`: `./run-generator.sh` (requires engine-kill cloned as a sibling of titan-data).
+
+After the first run, you can maintain `generated/templates.json` by hand if you prefer; the generator is for one-time migration or periodic sync.
+
 | File | Purpose |
 |------|---------|
 | `chassis-overrides.json` | Plasma reactor max, void shields max, void shield saves per chassis (template id). Optional `specialRules` (array of strings) for chassis that don't have rules in BattleScribe (e.g. Warhound Squadron). |
