@@ -1,21 +1,15 @@
-# Engine-Kill app overrides
+# Engine-Kill app data
 
-JSON files in this folder customize how titans work in the Engine Kill app. The app fetches them from the titan-data repo and uses them instead of hardcoded values when available.
+## Canonical artifact: templates.json
 
-## Generated app-ready payload (templates.json)
+The **Engine Kill app** loads a single file from titan-data at runtime: **`engine-kill/generated/templates.json`**. That file is the **canonical source** for all template data (titans, banners, maniples, legions, upgrades, princeps traits). The app does **not** fetch any other engine-kill JSON (no override files at runtime).
 
-The **Engine Kill app** can load a single file instead of merging XML and overrides at runtime:
+- **File:** [engine-kill/generated/templates.json](generated/templates.json) (see [generated/README.md](generated/README.md) for the payload shape).
+- **Updates:** Edit `generated/templates.json` directly when game data changes, or use a titan-data–owned build that produces it. The engine-kill repo may still provide a generator script for one-time or transitional use; the long-term goal is for titan-data to own this file. See engine-kill [docs/REFACTOR_PROGRESS.md](https://github.com/SCPublic/engine-kill/blob/main/docs/REFACTOR_PROGRESS.md) for the refactor (single JSON, no overrides).
 
-- **File:** `engine-kill/generated/templates.json` (see [generated/README.md](generated/README.md) for the payload shape).
-- **How it’s produced:** A generator script in the engine-kill repo runs the same merge logic (BattleScribe XML + these override JSONs) and writes `generated/templates.json`. Run it whenever XML or override files change.
-- **From engine-kill repo:**  
-  `TITAN_DATA_OUTPUT=/path/to/titan-data/engine-kill/generated/templates.json npm run generate-templates`  
-  Or, with titan-data as a sibling:  
-  `TITAN_DATA_OUTPUT="../titan-data/engine-kill/generated/templates.json" npm run generate-templates`
-- **From this repo (titan-data):**  
-  From `engine-kill/scripts/`: `./run-generator.sh` (requires engine-kill cloned as a sibling of titan-data).
+### Legacy override files (used only by generator during transition)
 
-After the first run, you can maintain `generated/templates.json` by hand if you prefer; the generator is for one-time migration or periodic sync.
+The following files are **not** fetched by the app at runtime. They are used only when running the generator (e.g. from engine-kill) to produce `templates.json`. They will be removed or archived once the refactor is complete and titan-data owns `templates.json` as the only artifact.
 
 | File | Purpose |
 |------|---------|
@@ -25,7 +19,7 @@ After the first run, you can maintain `generated/templates.json` by hand if you 
 | `damage-tracks.json` | Per-chassis damage: armor, **armor rolls** (Direct/Devastating/Critical roll ranges per location). Omit `criticalEffects` to use defaults from `critical-effects.json`. Use `armorRolls: { "direct": "11-13", "devastating": "14-15", "critical": "16+" }` per location (legacy `hitTable` still supported). When adding new chassis you can omit `critical` and assume it is one step above devastating (e.g. devastating `"15-16"` → critical `"17+"`). |
 | `weapon-metadata.json` | Per-weapon UI metadata keyed by `"name\|mountType"` (lowercase): `repairRoll`, `disabledRollLines`. Used for the "Weapon Disabled" overlay. |
 
-All keys use the app's template/chassis ids (e.g. `warhound`, `reaver`, `warlord`, `warmaster`). The app falls back to bundled data if a file is missing or the fetch fails.
+All keys use the app's template/chassis ids (e.g. `warhound`, `reaver`, `warlord`, `warmaster`).
 
 ### Banner overrides schema
 
