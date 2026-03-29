@@ -3171,19 +3171,27 @@ If the result is 25, move the reactor tracker to its leftmost hole.
         <categoryLink id="6559-1688-b6f4-78a1" name="Agile" hidden="false" targetId="e580-b213-3f86-c2fc" primary="false"/>
         <categoryLink id="4d8b-e826-be7b-7293" name="Arc: 360 Degree" hidden="false" targetId="ed82-caea-5092-bf7e" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c4e8-91a2-5bfd-4e30" name="Arm Weapon" hidden="false" collective="false" import="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e981-4c02-b1a7-9d44" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f102-53d9-c8e8-ae55" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a0c0-c300-335b-c637" name="Porphyrion Twin Magna Lascannon" hidden="false" collective="false" import="false" targetId="c23d-64c5-b376-ad80" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2aa-5df7-85ff-d53b" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b0fe-58fd-274d-6ac6" name="Porphyrion Ironstorm Missile Pod" hidden="false" collective="false" import="false" targetId="1d36-f2f4-4f29-5864" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="368c-330f-1d9d-2f9f" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a0c0-c300-335b-c637" name="Porphyrion Twin Magna Lascannon" hidden="false" collective="false" import="false" targetId="c23d-64c5-b376-ad80" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2aa-5df7-85ff-d53b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2bc-0dec-c133-811e" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="b0fe-58fd-274d-6ac6" name="Porphyrion Ironstorm Missile Pod" hidden="false" collective="false" import="false" targetId="1d36-f2f4-4f29-5864" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="368c-330f-1d9d-2f9f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cdf-8f33-a959-6f54" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="fd47-c688-fe2d-3467" name="Acastus Hull Weapon" hidden="false" collective="false" import="false" targetId="e060-52c1-1d31-a331" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -3693,7 +3701,7 @@ If the result is 25, move the reactor tracker to its leftmost hole.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32a4-abe3-1bb6-4a2e" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="32df-b93e-dde1-2706" name="Acastus Knight Porhpyrion" hidden="false" collective="false" import="false" targetId="76aa-5e9a-0d62-87c1" type="selectionEntry"/>
+            <entryLink id="32df-b93e-dde1-2706" name="Acastus Knight Porphyrion" hidden="false" collective="false" import="false" targetId="76aa-5e9a-0d62-87c1" type="selectionEntry"/>
             <entryLink id="7885-c4e2-0e63-3140" name="Acastus Knight Asterius" hidden="false" collective="false" import="false" targetId="2dee-7316-3a42-5507" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
