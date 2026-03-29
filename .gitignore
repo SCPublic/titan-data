@@ -19,9 +19,5 @@
 # Don't ignore .yml for CI build definitions
 !*.yml
 
-# Engine-Kill app overrides (JSON) and generated templates
-!/engine-kill/
-!/engine-kill/*.json
-!/engine-kill/*.md
-!/engine-kill/generated/
-!/engine-kill/generated/*.json
+# Engine Kill app: single runtime template file at repo root
+!/templates.json
